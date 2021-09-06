@@ -1,3 +1,6 @@
+import string
+from nltk.tokenize import word_tokenize
+
 def digit_perc(sentence: str) -> float:
     
     new_sentence = []
